@@ -7,6 +7,10 @@ logging.basicConfig(level=logging.DEBUG)
 
 
 def debug(function):
+    """
+    debug decorator print function information and parameters.
+    """
+
     @functools.wraps(function)
     def _debug(*args, **kwargs):
         result = None
@@ -36,7 +40,7 @@ def debug(function):
 
 @debug
 def spam(a, b=123):
-    return "some spam"
+    return "this message is a spam"
 
 
 spam(1)
