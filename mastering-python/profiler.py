@@ -19,7 +19,8 @@ def timer(function):
             return function(*args, **kwargs)
         finally:
             end = datetime.datetime.now()
-            print('%s: %s' % (function.__name__, end - start))
+            print("%s: %s" % (function.__name__, end - start))
+
     return _timer
 
 
@@ -33,6 +34,7 @@ def profiler(function):
         finally:
             profiler.disable()
             profiler.print_stats()
+
     return _profiler
 
 
@@ -53,6 +55,6 @@ def fibonacci(n):
         return fibonacci(n - 1) + fibonacci(n - 2)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     timed_fibonacci(32)
     profiled_fibonacci(32)
