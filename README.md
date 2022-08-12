@@ -42,10 +42,6 @@ sudo hciconfig hci0 up
 sudo hcitool lescan
 ```
 
-## [Flask](flask)
-
-It's a simple flask application that I had written in the day that 18.20 left me.
-
 ## [Mastering Python](mastering-python)
 
 Sample codes of Mastering Python book that is written by Rick van Hattem.
@@ -59,8 +55,8 @@ It's far from complete project that can do these things in professional manner.
 ## [Thrift](thrift)
 
 Let's learn this new animal in Python,
-first of all we use pure python edition of Thrift form
-[here](https://github.com/eleme/thriftpy).
+we use pure python edition of Thrift form
+[here](https://github.com/Thriftpy/thriftpy2).
 This example was written for having more fun in our trash life.
 
 ## [EMQx](emqtt)
