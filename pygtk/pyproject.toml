@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pygtk"
+version = "0.1.0"
+description = ""
+authors = ["Parham Alvani <parham.alvani@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+PyGTK = "^2.24.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
