@@ -12,36 +12,6 @@ pyvenv .
 deactive
 ```
 
-## [Bluetooth](bluetooth)
-
-simple program for using bluetooth in python.
-In order to use this code on linux you need to install `libbluetooth-dev`
-package.
-
-```bash
-sudo apt-get install libbluetooth-dev
-```
-
-If you want to use BLE version of this library you need following dependencies:
-
-```bash
-sudo apt-get install libglib2.0-dev pkg-config libboost-dev libboost-python-dev libboost-thread-dev
-git clone https://github.com/1995parham/pygattlib.git && cd pygattlib
-sudo python3 setup.py install
-```
-
-If you want to access your low power bluetooth devices directly from linux shell
-you can use HCI tools like this:
-
-```bash
-# First check HCI device is up and running
-sudo hciconfig
-# If you HCI device is down :(
-sudo hciconfig hci0 up
-# Let's start a scan for LE (Bluetooth LE or Bluetooth smart) devices
-sudo hcitool lescan
-```
-
 ## [Mastering Python](mastering-python)
 
 Sample codes of Mastering Python book that is written by Rick van Hattem.
