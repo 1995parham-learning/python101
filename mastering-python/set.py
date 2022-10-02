@@ -1,22 +1,19 @@
-# In The Name Of God
-# ========================================
-# [] File Name : set.py
-#
-# [] Creation Date : 25-08-2016
-#
-# [] Created By : Parham Alvani (parham.alvani@gmail.com)
-# =======================================
+import collections
 
 
-def print_set(expression, set_):
-    'Print set as a string sorted by letters'
-    print(expression, ''.join(sorted(set_)))
+def print_expression_as_set(expression: str):
+    "print expression as a string sorted by letters"
+    set_ = set(expression)
+    print(expression, "".join(sorted(set_)))
 
-spam = set('spam')
-print_set('spam:', spam)
 
-eggs = set('eggs')
-print_set('eggs:', eggs)
+def print_word_count(expression: str):
+    cnt = collections.Counter(expression)
+    print(f"most_common: {cnt.most_common()}\nvalues: {cnt}")
 
-parham = {'p', 'a', 'r', 'h', 'a', 'm'}
-print_set('parham:', parham)
+
+print_expression_as_set("spam")
+print_expression_as_set("eggs")
+print_expression_as_set("parham")
+
+print_word_count("eggs")
