@@ -12,6 +12,9 @@ pyvenv .
 deactive
 ```
 
+Also, you can use [pipenv](https://github.com/pypa/pipenv),
+[poetry](https://github.com/python-poetry/poetry) or other newer dependency management tools.
+
 ## [Mastering Python](mastering-python)
 
 Sample codes of Mastering Python book that is written by Rick van Hattem.
