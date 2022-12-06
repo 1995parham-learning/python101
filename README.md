@@ -27,7 +27,7 @@ It's far from complete project that can do these things in professional manner.
 
 ## [Thrift](thrift)
 
-Let's learn this new animal in Python,
+Let's learn this new beast in Python,
 we use pure python edition of Thrift form
 [here](https://github.com/Thriftpy/thriftpy2).
 This example was written for having more fun in our trash life.
