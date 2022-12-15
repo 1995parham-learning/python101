@@ -1,6 +1,6 @@
 # Python 101
 
-It's better to use `pyvenv` with your python code
+It's better to use [pyvenv](https://github.com/pyenv/pyenv) with your python code
 if you want to have the latest version of python:
 
 ```bash
