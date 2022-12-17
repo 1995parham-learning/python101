@@ -37,6 +37,10 @@ This example was written for having more fun in our trash life.
 First up and run your [EMQx](https://emqx.io) broker,
 then use this example to have fun.
 
-## Dataclasses
+## [Dataclasses](./dataclasses)
 
-## Tuples and their immutability
+Example of working with dataclasses in python. They are introduced in 3.7.
+
+## [Tuples and their immutability](./tuples-immutability/)
+
+Tuples are immutable but let dig deeper and see what is happened when their items are not immutable.
