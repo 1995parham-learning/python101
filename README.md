@@ -55,3 +55,7 @@ Example of working with dataclasses in python. They are introduced in 3.7.
 ## [Tuples and their immutability](./tuples-immutability/)
 
 Tuples are immutable but let dig deeper and see what is happened when their items are not immutable.
+
+## [Hashing](./hashing)
+
+Since first time that I used python one of my challenges is how hashing works.
