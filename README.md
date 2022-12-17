@@ -59,3 +59,7 @@ Tuples are immutable but let dig deeper and see what is happened when their item
 ## [Hashing](./hashing)
 
 Since first time that I used python one of my challenges is how hashing works.
+
+## [Fun with UTF-8](./fun-with-utf8)
+
+Python has better support for UTF-8 than Golang, so let's use it.
