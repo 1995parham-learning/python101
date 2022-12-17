@@ -36,3 +36,7 @@ This example was written for having more fun in our trash life.
 
 First up and run your [EMQx](https://emqx.io) broker,
 then use this example to have fun.
+
+## Dataclasses
+
+## Tuples and their immutability
