@@ -37,6 +37,17 @@ This example was written for having more fun in our trash life.
 First up and run your [EMQx](https://emqx.io) broker,
 then use this example to have fun.
 
+## [Initial Values](./initial-values/)
+
+Sometimes you want to have a default value for a function parameter:
+
+```python
+def f(a = 10):
+  pass
+```
+
+You cannot use mutable values as a default value, but why?
+
 ## [Dataclasses](./dataclasses)
 
 Example of working with dataclasses in python. They are introduced in 3.7.
