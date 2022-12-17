@@ -14,6 +14,8 @@ class Alg(abc.ABC):
         self.core: Core | None = None
 
     def __get__(self, obj: Core, objtype):
+        # object type is a class and classes are signleton
+        # so we can actually check them by `is` keyword.
         if objtype is Core:
             self.core = obj
             return self
