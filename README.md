@@ -88,3 +88,7 @@ Dynamic programming implementation of Fibonacci.
 
 We need to have a Solution class that has a pluggable algorithm which can be changed during the runtime.
 This example contains two ways of implementation for this problem.
+
+## [Fun](./fun)
+
+The fist time I saw Python.
