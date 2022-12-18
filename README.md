@@ -100,3 +100,8 @@ Parse HTML in Python. This is a very useful example for scrapping sites.
 ## [Working with Audio Signals](./pyroy)
 
 An introduction example to using python for audio processing (needs to know a little about signals and systems).
+
+## [MongoDB](./mongodb)
+
+Insert random data into a MongoDB server. It actually used for inserting random data into I1820 database for a B.Sc.
+Project.
