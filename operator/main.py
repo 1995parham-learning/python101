@@ -1,4 +1,5 @@
 from dataclasses import dataclass
+from functools import reduce
 import operator
 
 
@@ -30,3 +31,9 @@ for metro in sorted(metro_data, key=operator.attrgetter("population")):
 print(f"{'*' * 50}")
 
 print(operator.itemgetter(1, 2)(metro_data))
+
+print(f"{'*' * 50}")
+
+print(reduce(operator.and_, [True, True, False], True))
+print(reduce(operator.and_, [True, True, True], True))
+print(reduce(operator.add, [1, 2, 3, 4], 5))
