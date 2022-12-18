@@ -96,3 +96,7 @@ The fist time I saw Python.
 ## [Soup](./soup)
 
 Parse HTML in Python. This is a very useful example for scrapping sites.
+
+## [Working with Audio Signals](./pyroy)
+
+An introduction example to using python for audio processing (needs to know a little about signals and systems).
