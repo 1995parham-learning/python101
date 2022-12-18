@@ -83,3 +83,8 @@ The example for counting lines of text file with python. It dates back to 2014.
 ## [Fibonacci](./fibonacci)
 
 Dynamic programming implementation of Fibonacci.
+
+## [A Pluggable Algorithm](./descriptor)
+
+We need to have a Solution class that has a pluggable algorithm which can be changed during the runtime.
+This example contains two ways of implementation for this problem.
