@@ -105,3 +105,8 @@ An introduction example to using python for audio processing (needs to know a li
 
 Insert random data into a MongoDB server. It actually used for inserting random data into I1820 database for a B.Sc.
 Project.
+
+## [Metaclass](./metaclass)
+
+Review on metaclass basis. Useful for refreshing the concepts in your mind before digging deeper about its awesome
+usages.
