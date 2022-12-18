@@ -75,3 +75,7 @@ An implementation for a calculator that also has a tokenizer, so you can write:
 ```
 1 + 2 * (3 + 4)
 ```
+
+## [Count Lines](./count-lines/)
+
+The example for counting lines of text file with python. It dates back to 2014.
