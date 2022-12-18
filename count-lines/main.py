@@ -12,7 +12,7 @@ def count_lines(filename):
 
     ifile = None
     try:
-        ifile = open(filename, "r")
+        ifile = open(filename, "r", encoding="utf-8")
         lines = ifile.readlines()
     except TypeError as exp:
         logging.error(exp)
@@ -30,6 +30,10 @@ def count_lines(filename):
         if ifile:
             ifile.close()
 
+
+if len(sys.argv) < 2:
+    print("main.py file1 file2 ...")
+    exit()
 
 for arg in sys.argv[1:]:
     print(os.path.abspath(arg))
