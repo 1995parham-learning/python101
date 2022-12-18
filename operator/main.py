@@ -37,3 +37,9 @@ print(f"{'*' * 50}")
 print(reduce(operator.and_, [True, True, False], True))
 print(reduce(operator.and_, [True, True, True], True))
 print(reduce(operator.add, [1, 2, 3, 4], 5))
+
+print(f"{'*' * 50}")
+
+s = "Elahe Dastan"
+
+print(operator.methodcaller("upper")(s))
