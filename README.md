@@ -92,3 +92,7 @@ This example contains two ways of implementation for this problem.
 ## [Fun](./fun)
 
 The fist time I saw Python.
+
+## [Soup](./soup)
+
+Parse HTML in Python. This is a very useful example for scrapping sites.
