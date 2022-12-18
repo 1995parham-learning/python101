@@ -67,3 +67,11 @@ Python has better support for UTF-8 than Golang, so let's use it.
 ## [Finalize](./finalize)
 
 Learn about using finalizers in Python and also seeing `weakref` for the first time.
+
+## [The Calculator](./calc-with-tokenizer/)
+
+An implementation for a calculator that also has a tokenizer, so you can write:
+
+```
+1 + 2 * (3 + 4)
+```
