@@ -110,3 +110,7 @@ Project.
 
 Review on metaclass basis. Useful for refreshing the concepts in your mind before digging deeper about its awesome
 usages.
+
+## [Operator Package](./operator)
+
+Python has built-in library named `operator`. This example is review on some of its functions.
