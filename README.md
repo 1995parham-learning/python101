@@ -78,7 +78,7 @@ An implementation for a calculator that also has a tokenizer, so you can write:
 
 ## [Count Lines](./count-lines/)
 
-The example for counting lines of text file with python. It dates back to 2014.
+The example for counting lines of text files with python. It dates back to 2014.
 
 ## [Fibonacci](./fibonacci)
 
