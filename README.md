@@ -114,3 +114,8 @@ usages.
 ## [Operator Package](./operator)
 
 Python has built-in library named `operator`. This example is review on some of its functions.
+
+## [Mode](./mode)
+
+It returns the most common element in the array. The objective of this example is not about mode itself, actually it
+discusses type hints.
