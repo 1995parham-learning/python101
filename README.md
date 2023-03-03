@@ -91,7 +91,7 @@ This example contains two ways of implementation for this problem.
 
 ## [Fun](./fun)
 
-The fist time I saw Python.
+The fist time I met Python.
 
 ## [Soup](./soup)
 
@@ -126,3 +126,7 @@ In Python, a protocol definition is written as a `typing.Protocol` subclass.
 However, classes that implement a protocol don't need to inherit, register, or declare any relationship with the class
 that defines protocol.
 _Protocol_ in Python is similar to interfaces in Go.
+
+## [Main Thread](./main-thread)
+
+Do you know every python program has a thread named `MainThread`? You do now.
