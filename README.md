@@ -130,3 +130,11 @@ _Protocol_ in Python is similar to interfaces in Go.
 ## [Main Thread](./main-thread)
 
 Do you know every python program has a thread named `MainThread`? You do now.
+
+## [FastAPI](./fastapi)
+
+[FastAPI](https://fastapi.tiangolo.com/) is one of famous HTTP frameworks in Python and here is an example to use it.
+
+## [Single Dispatch](./singledispatch)
+
+How we can have function overloading in python?
