@@ -1,6 +1,6 @@
 # Python 101
 
-It's better to use [pyvenv](https://github.com/pyenv/pyenv) with your python code
+It's better to use [pyenv](https://github.com/pyenv/pyenv) with your python code,
 if you want to have the latest version of python:
 
 ```bash
@@ -13,7 +13,8 @@ deactive
 ```
 
 Also, you can use [pipenv](https://github.com/pypa/pipenv),
-[poetry](https://github.com/python-poetry/poetry) or other newer dependency management tools.
+[poetry](https://github.com/python-poetry/poetry) or other newer dependency management tools
+instead of old and messy virtual environment.
 
 ## [Mastering Python](mastering-python)
 
