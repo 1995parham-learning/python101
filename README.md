@@ -1,4 +1,4 @@
-<h1 align="center"> Python 101 </h1>
+<h1 align="center"><a href="https://docs.python.org/3/">Python 101</a></h1>
 
 ## Introduction
 
