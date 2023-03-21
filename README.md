@@ -1,4 +1,6 @@
-# Python 101
+<h1 align="center"> Python 101 </h1>
+
+## Introduction
 
 It's better to use [pyenv](https://github.com/pyenv/pyenv) with your python code,
 if you want to have the latest version of python:
