@@ -141,3 +141,8 @@ Do you know every python program has a thread named `MainThread`? You do now.
 ## [Single Dispatch](./singledispatch)
 
 How we can have function overloading in python?
+
+## [Memory View](./memory-view)
+
+The built-in `memoryview` class is a shared-memory sequence type that lets you handle
+slices of arrays without copying bytes. It was inspired by the NumPy library.
