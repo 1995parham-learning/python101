@@ -146,3 +146,9 @@ How we can have function overloading in python?
 
 The built-in `memoryview` class is a shared-memory sequence type that lets you handle
 slices of arrays without copying bytes. It was inspired by the NumPy library.
+
+## [Format](./format)
+
+The f-string, the `format()` built-in function, and the `str.format()` method delegate
+the actual formatting to each type by calling their `.__format__(format_spec)`
+method. The `format_spec` is a formatting specifier.
