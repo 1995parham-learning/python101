@@ -152,3 +152,7 @@ slices of arrays without copying bytes. It was inspired by the NumPy library.
 The f-string, the `format()` built-in function, and the `str.format()` method delegate
 the actual formatting to each type by calling their `.__format__(format_spec)`
 method. The `format_spec` is a formatting specifier.
+
+## [Data Structures](./data-structure)
+
+Review on python built-in data structures.
