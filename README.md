@@ -156,3 +156,8 @@ method. The `format_spec` is a formatting specifier.
 ## [Data Structures](./data-structure)
 
 Review on python built-in data structures.
+
+## [Private Properties](./private)
+
+In python, we cannot have a private property just like what we have in Java.
+This example shows the way in python we can simulate private properties.
