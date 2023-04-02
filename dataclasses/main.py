@@ -2,7 +2,7 @@ import dataclasses
 import typing
 
 
-@dataclasses.dataclass
+@dataclasses.dataclass(slots=True)
 class Student:
     name: str
     family: str
@@ -17,7 +17,14 @@ class Student:
 
 
 if __name__ == "__main__":
-    Student("Parham", "Alvani", 30, "9231058")
-    Student("Elahe", "Dastan", 20, "9631025")
+    s1 = Student("Parham", "Alvani", 30, "9231058")
+    s2 = Student("Elahe", "Dastan", 20, "9631025")
 
     print(Student.students)
+
+    # Member "score" is unknown because we are using __slots__
+    # s1.score = 80
+
+    # 'Student' object has no attribute '__dict__'
+    # because we are using __slots__
+    # print(s1.__dict__)
