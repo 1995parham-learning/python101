@@ -40,15 +40,3 @@ class SparseMatrix:
             result.matrix[key] = self.matrix.get(key, 0) + other.matrix.get(key, 0)
 
         return result
-
-
-if __name__ == "__main__":
-    # 1 0 1
-    # 0 0 0
-    sm1 = SparseMatrix([[1, 0, 1], [0, 0, 0]])
-    # 1 0 1
-    # 0 1 0
-    sm2 = SparseMatrix([[1, 0, 1], [0, 1, 0]])
-
-    sm_sum = sm1 + sm2
-    print(sm_sum.matrix)
