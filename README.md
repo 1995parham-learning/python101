@@ -161,3 +161,34 @@ Review on python built-in data structures.
 
 In python, we cannot have a private property just like what we have in Java.
 This example shows the way in python we can simulate private properties.
+
+## [Generator](./generator)
+
+A generator lets you produce a sequence of values lazily, one at a time, instead of
+building the whole list in memory. This example walks through `yield`, pulling values
+with `next()`, and generator expressions.
+
+## [MRO](./MRO)
+
+A look at how Python resolves method calls in a diamond-shaped multiple inheritance
+hierarchy, using `ReportView.__mro__` to see the resolution order directly.
+
+## [IR (Information Retrieval)](./IR)
+
+Stemming a Persian sentence with [hazm](https://github.com/roshan-research/hazm), a
+Python library for Persian NLP.
+
+## [OCR](./ocr)
+
+Listing generated training images from
+[TextRecognitionDataGenerator](https://github.com/Belval/TextRecognitionDataGenerator)
+for an OCR pipeline.
+
+## [Socket](./socket)
+
+A minimal TCP client using Python's built-in `socket` module.
+
+## [Stock](./stock)
+
+Max-profit-with-unlimited-transactions ("Best Time to Buy and Sell Stock II"), solved
+by tracking buy/sell state across a single pass.

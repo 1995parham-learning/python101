@@ -15,10 +15,13 @@ def count_up_to(n):
 
 gen = count_up_to(3)
 
-next(gen)  # 1
-next(gen)  # 2
-next(gen)  # 3
-next(gen)  # StopIteration
+print(next(gen))  # 1
+print(next(gen))  # 2
+print(next(gen))  # 3
+try:
+    next(gen)
+except StopIteration:
+    print("StopIteration")
 
 # When Python sees a yield:
 

@@ -41,5 +41,5 @@ print(ReportView().handle())
 #         ReportView
 
 # Python Computes the MRO (Method Resolution Order)
-ReportView.__mro__
+print(ReportView.__mro__)
 #(ReportView, AuthMixin, CacheMixin, BaseView, object)
